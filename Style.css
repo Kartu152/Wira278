@@ -1,0 +1,300 @@
+/* Style Umum */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo {
+    width: 60px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+}
+
+/* Bagian Utama */
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2 {
+    font-size: 22px;
+    color: #2c3e50;
+}
+
+.intro p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Style untuk Halaman Sejarah */
+.sejarah {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: #333;
+}
+
+.sejarah h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.sejarah p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Style untuk Halaman Visi & Misi */
+.visi-misi {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: #333;
+}
+
+.visi-misi h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.visi, .misi {
+    margin-bottom: 20px;
+}
+
+.visi h3, .misi h3 {
+    color: #2c3e50;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.visi p, .misi ul {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.misi ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.misi ul li {
+    margin-bottom: 10px;
+}
+
+/* Style untuk Halaman Struktur Organisasi */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header .logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    font-size: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.struktur-organisasi {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.struktur-organisasi h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.organisasi-section {
+    margin-bottom: 20px;
+}
+
+.organisasi-section h3 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 8px;
+}
+
+.organisasi-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+.organisasi-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.organisasi-section ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.card, .product, .agenda-list li {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.login-form, .admin-section {
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
